@@ -1,0 +1,113 @@
+/*   AT.css  C.12.23.2024   R.07.18.2026 
+
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-decoration: none;   */
+  
+  		nav ul{
+			list-style-type: none;
+			text-align: center;
+		}
+		nav li{
+			display:inline;
+			margin-top: 25px;
+			margin-bottom: 25px;
+		}
+	
+		nav a{
+			color: blue;  /*  was gold #ffbc52, now blue  */
+			font-size: 1.80em;	
+			font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			text-decoration: none;			
+		}
+
+		.currentpage{  /* under the nav names */
+			border-bottom:#ffbc52 solid 3px;  /*  gold, color was blue  */
+		}
+
+
+	.AT-h1{
+		 /* top line of text */
+			color: #00ef8f;
+			text-align: center;
+			width: 100%;
+			margin: auto;
+			color: black;
+			font-size: 1.0em;	
+			font-family: Sans-serif;
+			}	
+ 
+.wrapper {
+  flex: 1 0 auto; /* This makes the wrapper grow to fill available space, pushing the footer down */
+}
+	
+.no-wrap{
+	white-space: nowrap;
+	}
+
+.pic-line-one  {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}	
+
+	img {  /* no '.' or '#'   */
+		display: block;
+		margin: auto;
+		}
+
+	.at-description {
+		font-family: monospace;
+		text-align: center;	
+		font-size: 2.0em;		
+		color: blue;
+		width: 80%;
+		margin: auto;		
+		}
+
+.image-container {
+    display: flex; /* Enables flexbox layout */
+    flex-direction: column; /* Stacks the children vertically */
+    /* Optional: Center the images horizontally within the container */
+    align-items: center; 
+    /* Optional: Add some spacing between the images */
+    gap: 10px; 
+}
+
+/* Optional: style the images themselves 
+.image-container img {
+    max-width: 100%; /* Ensures images are responsive 
+    height: auto; 
+}  */
+
+	.clue-description{
+		font-family: monospace;
+		font-size: 1.4em;		
+		color: blue;  /*  was  now blue 
+		text-align: justify;
+		width: 100%;
+		margin: auto;	*/		
+		}
+
+.flex-container {
+  display: flex;         /* Aligns items side-by-side */
+  align-items: center;   /* Centers text vertically relative to the image */
+  gap: 10px;             /* Adds spacing between the image and text */
+}
+
+.foot {
+	flex-shrink: 0; /* Prevents the footer from shrinking */
+	/* Add styling for your footer (e.g., background-color, padding) */
+	background-color: Black;
+	padding: 10px;
+	text-align: center;  
+	font-style: italic;
+	font-family: Sans-serif;
+	color: #ffd125;
+	font-size: 1.0em;
+	}
+
+
+
+
