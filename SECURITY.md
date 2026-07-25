@@ -1,4 +1,4 @@
-L-Deck.com Security Policy
+brewster-L-deck.github.io Security Policy
 
 1.01 Supported Versions
 
@@ -13,6 +13,6 @@ currently versions being supported with security updates.
 
 ## Reporting a Vulnerability
 
-How to report a vulnerability: Send EMail describing the issue to: AFP@L-Deck.com
+How to report a vulnerability: Send EMail describing the issue to: brewster@L-Deck.com
 
 
